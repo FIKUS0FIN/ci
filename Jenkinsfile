@@ -5,6 +5,6 @@ pipeline {
       steps {
         sh 'df -h'
       }
-    }
+    }x
   }
 }
