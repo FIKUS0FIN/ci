@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test_disk') {
       steps {
-        sh 'df -h'
+        sh 'bash -x con.sh'
       }
     }
   }
